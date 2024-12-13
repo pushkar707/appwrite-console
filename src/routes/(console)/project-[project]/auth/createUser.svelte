@@ -66,7 +66,7 @@
             placeholder="Enter name"
             autofocus={true}
             bind:value={name} />
-        <InputEmail id="email" label="Email" placeholder="Enter email" bind:value={mail} />
+        <InputEmail id="email" label="Email" placeholder="Enter email" bind:value={mail} required />
         <InputPhone id="phone" label="Phone" placeholder="Enter phone" bind:value={phone} />
         <InputPassword
             id="password"
